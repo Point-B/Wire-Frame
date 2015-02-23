@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B186A991A9BD8BE0049BCE7 /* signinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B186A981A9BD8BE0049BCE7 /* signinVC.swift */; };
+		8B186A9B1A9BD9840049BCE7 /* editVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B186A9A1A9BD9840049BCE7 /* editVC.swift */; };
+		8B186A9D1A9BD9A00049BCE7 /* payVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B186A9C1A9BD9A00049BCE7 /* payVC.swift */; };
+		8B186A9F1A9BD9B50049BCE7 /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B186A9E1A9BD9B50049BCE7 /* mapVC.swift */; };
 		8B18CF1C1A7F0E860072C8DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B18CF1B1A7F0E860072C8DC /* AppDelegate.swift */; };
 		8B18CF1E1A7F0E860072C8DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B18CF1D1A7F0E860072C8DC /* ViewController.swift */; };
 		8B18CF211A7F0E860072C8DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B18CF1F1A7F0E860072C8DC /* Main.storyboard */; };
 		8B18CF231A7F0E860072C8DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B18CF221A7F0E860072C8DC /* Images.xcassets */; };
 		8B18CF261A7F0E860072C8DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B18CF241A7F0E860072C8DC /* LaunchScreen.xib */; };
 		8B18CF321A7F0E860072C8DC /* PointBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B18CF311A7F0E860072C8DC /* PointBTests.swift */; };
+		8B2FA8C11A9AC5030021C02D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2FA8C01A9AC5030021C02D /* StoreKit.framework */; };
+		8B7E85FB1A8D2CB10065AC90 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7E85FA1A8D2CB10065AC90 /* MapKit.framework */; };
+		8BE94F991A9662EC00B00E9D /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE94F981A9662EC00B00E9D /* DashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B186A981A9BD8BE0049BCE7 /* signinVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signinVC.swift; sourceTree = "<group>"; };
+		8B186A9A1A9BD9840049BCE7 /* editVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editVC.swift; sourceTree = "<group>"; };
+		8B186A9C1A9BD9A00049BCE7 /* payVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = payVC.swift; sourceTree = "<group>"; };
+		8B186A9E1A9BD9B50049BCE7 /* mapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
 		8B18CF161A7F0E860072C8DC /* PointB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B18CF1A1A7F0E860072C8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B18CF1B1A7F0E860072C8DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +47,9 @@
 		8B18CF2B1A7F0E860072C8DC /* PointBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B18CF301A7F0E860072C8DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B18CF311A7F0E860072C8DC /* PointBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointBTests.swift; sourceTree = "<group>"; };
+		8B2FA8C01A9AC5030021C02D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8B7E85FA1A8D2CB10065AC90 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8BE94F981A9662EC00B00E9D /* DashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7E85FB1A8D2CB10065AC90 /* MapKit.framework in Frameworks */,
+				8B2FA8C11A9AC5030021C02D /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,8 @@
 		8B18CF0D1A7F0E860072C8DC = {
 			isa = PBXGroup;
 			children = (
+				8B2FA8C01A9AC5030021C02D /* StoreKit.framework */,
+				8B7E85FA1A8D2CB10065AC90 /* MapKit.framework */,
 				8B18CF181A7F0E860072C8DC /* PointB */,
 				8B18CF2E1A7F0E860072C8DC /* PointBTests */,
 				8B18CF171A7F0E860072C8DC /* Products */,
@@ -80,6 +98,11 @@
 				8B18CF1B1A7F0E860072C8DC /* AppDelegate.swift */,
 				8B18CF1D1A7F0E860072C8DC /* ViewController.swift */,
 				8B18CF1F1A7F0E860072C8DC /* Main.storyboard */,
+				8BE94F981A9662EC00B00E9D /* DashViewController.swift */,
+				8B186A9A1A9BD9840049BCE7 /* editVC.swift */,
+				8B186A9C1A9BD9A00049BCE7 /* payVC.swift */,
+				8B186A9E1A9BD9B50049BCE7 /* mapVC.swift */,
+				8B186A981A9BD8BE0049BCE7 /* signinVC.swift */,
 				8B18CF221A7F0E860072C8DC /* Images.xcassets */,
 				8B18CF241A7F0E860072C8DC /* LaunchScreen.xib */,
 				8B18CF191A7F0E860072C8DC /* Supporting Files */,
@@ -161,6 +184,15 @@
 				TargetAttributes = {
 					8B18CF151A7F0E860072C8DC = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = J4HHXFDUVP;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					8B18CF2A1A7F0E860072C8DC = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -213,6 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B18CF1E1A7F0E860072C8DC /* ViewController.swift in Sources */,
+				8B186A9B1A9BD9840049BCE7 /* editVC.swift in Sources */,
+				8B186A991A9BD8BE0049BCE7 /* signinVC.swift in Sources */,
+				8BE94F991A9662EC00B00E9D /* DashViewController.swift in Sources */,
+				8B186A9F1A9BD9B50049BCE7 /* mapVC.swift in Sources */,
+				8B186A9D1A9BD9A00049BCE7 /* payVC.swift in Sources */,
 				8B18CF1C1A7F0E860072C8DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +373,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PointB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +386,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PointB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +448,7 @@
 				8B18CF371A7F0E860072C8DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B18CF381A7F0E860072C8DC /* Build configuration list for PBXNativeTarget "PointBTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +457,7 @@
 				8B18CF3A1A7F0E860072C8DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
